@@ -6,7 +6,7 @@ CREATE TABLE regions (
 CREATE TABLE countries (
 	country_id text NOT NULL,
 	country_name text NOT NULL,
-	region_id INTEGER NOT NULL,
+	region_id_MODIFICADA INTEGER NOT NULL,
 	PRIMARY KEY (country_id ASC),
 	FOREIGN KEY (region_id) REFERENCES regions (region_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
