@@ -62,3 +62,4 @@ CREATE TABLE dependents (
 
 INSERT INTO regions VALUES ("1", "Spain");
 INSERT INTO jobs VALUES ("1", "Fontanero", "0", "3000");
+INSERT INTO regions VALUES ("France");
